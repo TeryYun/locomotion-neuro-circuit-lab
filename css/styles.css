@@ -1,0 +1,14 @@
+@import "reset.css";
+@import "nav-bar.css";
+
+.parallax-container {
+  height: "your height here";
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.research-interest {
+  font-size: 25px;
+}
