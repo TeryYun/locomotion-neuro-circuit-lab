@@ -7,44 +7,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <title>Locomotion Neuro Circuit Lab</title>
 </head>
 
 <body>
-    <div class="container">
-        <nav class="nav">
-            <div class="site-branding">
-                <a class="site-branding__logo" href="index.html">Locomotion Neuro Circuit Lab</a>
-                <ul class="nav__list">
-                    <li class="nav__btn">
-                        <a class="nav__a" href="#">announcement</a>
-                    </li>
-                    <li class="nav__btn">
-                        <a class="nav__a" href="#">research projects</a>
-                    </li>
-                    <li class="nav__btn">
-                        <a class="nav__a" href="#">publications</a>
-                    </li>
-                    <li class="nav__btn">
-                        <a class="nav__a" href="#">lab members</a>
-                    </li>
-                    <li class="nav__btn">
-                        <a class="nav__a" href="#">contact information</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-    
+    <nav class="nav blue-grey darken-3">
+        <div class="nav__logo">
+            <a class="nav__logo-text" href="index.html">Locomotion Neuro Circuit Lab</a>
+        </div> 
+        <div>
+            <ul class="nav__menu">
+                <li class="nav__btn">
+                    <a class="nav__a" href="announcement.html">announcement</a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__a" href="research-projects.html">research projects</a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__a" href="publications.html">publications</a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__a" href="lab-members.html">lab members</a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__a" href="contact-info.html">contact information</a>
+                </li>
+            </ul>
+        </div>  
+    </nav>
+
     <div class="parallax-container">
-        <div class="parallax">
-            <video src="images/fugu.mp4" autoplay loop muted controls style="width: 100%;"></video></div>
-    </div>
-    <div class="section white">
-        <div class="row container">
+        <div class="parallax"><video src="images/fugu.mp4" autoplay loop muted controls style="width: 100%;"></video></div>
+      </div>
+      <div class="section white">
+        <div class="row-container">
           <h2 class="header">MAJOR RESEARCH INTERESTS</h2>
            <div class="research-interest">
               <p><span class="text-bold">Question</span>: How do locomotor neuronal circuits shape animal behaviors?</p>
@@ -60,11 +59,17 @@
               to help people with <span class="text-bold">motor function defects</span> such as spinal cord injuries and ALS.</p>
             </div>
         </div>
-    </div>
-    <div class="parallax-container">
-        <div class="parallax">
-            <video src="#" autoplay loop muted controls style="width: 100%;"></video>
-        </div>
-    </div>
+      </div>
+      <div class="parallax-container">
+        <div class="parallax"><video src="images/sturgeon.mp4" autoplay loop muted controls style="width: 100%;"></video></div>
+      </div>
 </body>
+
+<footer class="page-footer">
+      <div class="page-footer__copyright">
+        <span class="page-footer__text">© 2021 Copyright DGIST Locomotion Neuro Circuit Lab.</span>
+        <a class="footer-copyright__logo"><img src="images/footer_logo.png"></a>
+      </div>
+    </div>
+</footer>
 </html>
